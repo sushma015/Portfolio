@@ -1,0 +1,266 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;  
+}
+#menubar{
+    font-size:30px;
+    position: absolute;
+    right:0;
+}
+#menu{
+    background-color:turquoise;
+    height:100%;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:0;
+    left: 0;
+    position: fixed;
+}
+#circle{
+    background-color:rgba(127, 255, 212, 0.664);
+    height:30%;
+    width:65%;
+    border-radius: 50%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:7%;
+}
+#my-profile{
+   height:90%;
+   width:90%;
+    border-radius: 50%;
+    position:absolute;
+    top:5%;
+}
+#side-nav{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top:65%;
+    align-items: center;
+}
+#tab{
+    color:black;
+    text-shadow: 1px 1px 7px white;
+    padding-top:20%;
+}
+#tab:hover{
+    color:white;
+    text-shadow: 1px 1px 10px rgb(127,255,212,0.664);
+}
+#main{
+display: flex;
+flex-direction: column;
+gap:10%;
+margin-left: 23%;
+}
+#home{
+    padding-top: 8%;
+}
+#matter{
+    padding-top:10%;
+}
+#name
+{
+    font-size:60px;
+}
+
+#mail{
+    text-decoration: none;
+    color:turquoise;
+}
+#mail:hover{
+color: black;
+}
+#address{
+    font-size: 24px;
+    color:slategray;
+}
+#details
+{    
+    font-size: 30px;
+    color:slategray;
+}
+#skillss{
+    display: flex;
+    padding-top: 3%;
+}
+#girl:hover{
+    filter: drop-shadow(1px 1px 10px turquoise);
+}
+#contact{
+    display: flex;
+    column-gap: 10%;
+}
+#badge
+{
+    height:25%;
+    width: 25%;
+    padding-bottom: 5%;
+}
+#badges{
+    padding-top: 2%;
+    display: flex;
+    column-gap: 10%;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+#con_img{
+    height:35%;
+    width:55%;
+}
+#education{ 
+ display: flex;
+ justify-content:center;
+ align-items:center;
+ gap: 40px;
+}
+#points{
+    position:relative;
+    height: 100vh;
+    width: 100%;
+}
+#ssc{
+    position:absolute;
+    bottom:20%;
+}
+#btech{
+    position: absolute;
+    top:15%;
+}
+#diploma{
+    position: absolute;
+    top:40%;
+}
+#contact_links
+{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+#skill
+{
+    color:black;
+}
+#skillset{
+    font-size: 30px;
+    padding-bottom: 10%;
+}
+#skillset:hover{
+    color:turquoise;
+    text-shadow: 1px 1px 2px black;
+    transform: scale(1.1);
+}
+#girl{
+    width:50%;
+}
+#badge:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 10px turquoise);
+}
+#con
+{
+    color:slategray;
+    font-size: 33px;
+    display: flex;
+    column-gap: 5%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+#con:hover{
+    color:black;
+    text-shadow: 1px 2px 2px turquoise;
+}
+#contact_links
+{
+    display: flex;
+    flex-direction: column;
+}
+#menubar{
+    color:turquoise;
+}
+@media(max-width: 480px){
+    #main{
+        margin-left:0;
+    }
+    #menu,#con_img,#girl,#circle1{
+        display: none;
+    }
+    #badge
+    {
+    height:70%;
+    width: 70%;
+    padding: 3%;
+    }
+}
+@media(max-width:768px)and (min-width:481px)
+{
+    #circle{
+        display: none;
+    }
+    #circle1{
+        background-color:rgba(127, 255, 212, 0.664);
+        height:35%;
+        width:30%;
+        border-radius: 50%;
+        float:inline-end;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #circle1:hover{
+        transform: scale(1.1);
+    }
+    #my-profile1{
+        border-radius: 50%;
+        height:90%;
+        width: 90%;
+       display:inline-block;
+    }
+    #menu{
+        width:100%;
+        height:10%;
+    }
+    #side-nav{
+        overflow: hidden;   
+        display: flex;
+        flex-direction: row;
+        margin:0;
+        position: absolute;
+        top: 0;
+        height: 100%;
+    }
+    #girl{
+        width:55%;
+    }
+    #con_img{
+        height:45%;
+        width:60%;
+        margin-top: 7%;
+    }
+    #tab{
+        padding:20;
+        font-weight:550;
+        font-size: large;
+
+    }
+    #main{
+        margin-left: 0;
+        padding-top:5%;
+    }
+}
+@media(min-width:769px)
+{
+    #circle1{
+        display: none;
+    }
+}
